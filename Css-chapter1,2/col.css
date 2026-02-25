@@ -1,0 +1,19 @@
+body {
+    font-size: medium;
+    border: 3px solid black;
+}
+
+h1,h2 {
+    color :black;
+}
+.red{
+    color: crimson;
+    font-style: italic;
+}
+ 
+.highlight{
+    color: darkmagenta;
+}
+#identity {
+    color: burlywood;
+}
