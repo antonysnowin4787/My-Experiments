@@ -1,0 +1,10 @@
+body {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    color: rgb(255,0,0);
+}
+
+p {
+    color:hsl(252, 100%, 50%);
+}
