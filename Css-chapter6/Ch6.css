@@ -1,0 +1,21 @@
+/* Typography is a way the text is arranged and presented */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding:10%;
+    font-size: 1.5rem;
+}
+
+/* input,button{
+    font-size: inherit;
+} */
+
+p{
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 2em;
+    line-height: 1.2;
+    letter-spacing:0.1em;
+    word-spacing:0.3em;
+    font-style: italic;
+}
