@@ -1,0 +1,23 @@
+body{
+    padding: 10%;
+    font-size:1.5rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: not-allowed;
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:active{
+    color:green;
+}
+
+a:hover,a:focus{
+    color: purple;
+    opacity: 0.5;
+}
