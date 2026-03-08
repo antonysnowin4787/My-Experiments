@@ -1,0 +1,22 @@
+body {
+    padding:10%;
+    font-size: 1.2rem;
+}
+
+ul{
+    text-align: center;
+    color: blue;
+    list-style: square inside;
+}
+
+ol li:nth-child(2){
+    color: blueviolet;
+}   
+
+ol{
+    list-style-type: upper-roman;
+}
+ol li::marker{
+    color:darkred;
+    content:"Sub>>";
+}
