@@ -1,0 +1,39 @@
+body{
+    font-size: 2rem;
+}
+
+p{
+    background-color: beige;
+}
+
+.opposite{
+    display: inline-block;
+    background-color: green;
+    color: rebeccapurple;
+    padding: 2rem;
+}
+
+.this{
+    background-color: black;
+    color: azure;
+    width: 20vw;
+    height: 20vw;
+    padding: 1rem;
+}
+
+.left{
+    float: left;
+    margin-right: 20px;
+}
+
+.right{
+    float: right;
+    margin-left: 20px;
+}
+
+section{
+    background-color: aquamarine;
+    border: 2px solid #333;
+    padding: 1rem;
+    display: flow-root;
+}
