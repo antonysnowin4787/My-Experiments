@@ -1,0 +1,26 @@
+body{
+    font-size: 1.5rem;
+}
+
+.ball{
+    column-count: 4 200px;
+    column-rule: 2px solid #333;
+    column-gap: 3rem;
+    
+}
+
+.ball p{
+    margin-top: 0;
+}
+
+.ball .quote{
+    margin-top:2rem;
+    color: darkgreen;
+    text-align: center;
+    font-size: 3rem;
+    column-span: all;
+}
+
+.Imp{
+    white-space: nowrap;
+}
