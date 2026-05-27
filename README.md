@@ -1,26 +1,31 @@
-# HTML Basics 🚀
+🚀 Full Stack Learning Journey
 
-This repository contains my practice files while learning HTML.
+Welcome to my Full Stack Development learning repository.
 
-## 📚 What I’m Learning
+This repository contains my practice files, mini projects, notes, experiments, and challenges that I complete while learning Full Stack Development.
 
-- Basic HTML structure
-- Headings and paragraphs
-- Lists (ordered and unordered)
-- Links
-- Images
-- Comments
-- Semantic tags
+📚 What I’m Learning
+Frontend Development
+HTML5
+CSS3
+Flexbox & Grid
+Responsive Design
+JavaScript
+React (Upcoming)
+Backend Development
+Node.js
+Express.js
+APIs
+Authentication
+Database Integration
+Database
+MongoDB
+SQL Basics
+Other Skills
+Git & GitHub
+Problem Solving
+LeetCode Practice
+Project Building
+🎯 Goal
 
-## 📁 Project Structure
-
-- First.html – Main practice file
-- images – Image files used in the project
-
-## 🎯 Goal
-
-The goal of this project is to understand how HTML works and build a strong foundation in web development.
-
----
-
-More projects coming soon 🔥
+My goal is not just to learn syntax, but to become a disciplined developer who can build real-world applications and continuously improve through consistency and practice.
