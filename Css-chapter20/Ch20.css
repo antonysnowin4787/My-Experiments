@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Variables */
+:root{
+    /* Font */
+    --FS:clamp(1.75rem,3vh,2.5rem);
+    --FS-SM:clamp(0.75rem,2vh,1rem)
+
+
+    /* COLOUR */
+    --BGCOLOR:#222020;
+    --ALT-BGCOLOR:#0e0d0dc6;
+    --RADIAL-COLOR:whitesmoke;
+    --TEXT-COLOR:white;
+
+    /* General */
+    --PADD:0.5rem;
+    --BORDER:2px solid black;
+
+    /* SQUARE */
+    --SQUARE-COLOR:papayawhip;
+    --SQUARE-SIZE:max(150px,20vw)
+}
+
+body{
+    font-size:var(--FS);
+    min-height: 100vh;
+    background:var(--BGCOLOR);
+    background-image:radial-gradient(whitesmoke,var(--ALT-BGCOLOR));
+    display:flex;
+    flex-direction: column;
+}
+header,nav,footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header,footer{
+    position: sticky;
+    background-color:var(--ALT-BGCOLOR);
+    color: whitesmoke;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    background-color: white;
+    color: #1E293B;
+    padding:var(--PADD);
+    border-bottom:var(--BORDER) ;
+}
+
+main{
+    flex-grow:1;
+    padding:var(--PADD);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    gap:min(2vh,20px);
+}
+
+main section{
+    flex-grow: 1;
+    padding:var(--PADD);
+}
+
+main aside{
+    background-color: hsla(0,0%,20%,0.8);
+    font-size: var(--FS-SM);
+    color: whitesmoke;
+    font-style: italic;
+    padding: var(--PADD);
+}
+
+footer{
+    bottom: 0;
+}
+
+.tooltip{
+    border-bottom:1px dashed white;
+}
+
+.tooltip:hover::before{
+    content: attr(data-tooltip);
+    position:absolute;
+    top: -2px;
+    background-color: black;
+}
+
+a:any-link{
+    color: firebrick;
+}
+
+a:hover,a:focus{
+    filter: brightness(150%);
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme:dark){
+    :root{
+        --BGCOLOR:black;
+        --ALT-BGCOLOR:#808080c5;
+        --RADIAL-COLOR:rgba(159, 80, 162, 0.91);
+
+    }
+}
+
+
+@media screen and (min-height:576px){
+    main{
+        flex-flow:row nowrap;
+        justify-content: space-between;
+    }
+
+    main section{
+        width:calc(70%-5px)
+
+    }
+
+    main aside{
+        width: calc(30%-5px);
+    }
+}
+
+.square--high{
+    --SQUARE-COLOR:blue;
+}
+
+.square{
+    background-color: var(--SQUARE-COLOR);
+    border: var(--BORDER);
+    border-radius: 15px;
+    display: grid;
+    place-content:center;
+    font-size: var(--FS);
+    box-shadow:0 6px 5px -5px var(--ALT-BGCOLOR);
+
+}
