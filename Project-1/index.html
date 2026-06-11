@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+</head>
+<body>
+
+    <!-- Hidden checkbox — the trick! -->
+    <input type="checkbox" id="sidebar-toggle">
+
+    <!-- Overlay (clicking it unchecks the checkbox = closes sidebar) -->
+    <label class="overlay" for="sidebar-toggle"></label>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <label class="close-btn" for="sidebar-toggle" aria-label="Close menu">
+            <i class="ti ti-x"></i>
+        </label>
+        <h2>Successful Youtubers</h2>
+        <ul>
+            <li><a href="mrbeast.html">Mr. Beast</a></li>
+            <li><a href="ksi.html">KSI</a></li>
+            <li><a href="loganpaul.html">Logan Paul</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1 class="site-title">EXPLORER</h1>
+        <label class="menu-btn" for="sidebar-toggle" aria-label="Open menu">
+            <i class="ti ti-menu-2"></i>
+        </label>
+    </header>
+
+    <!-- Hero -->
+    <main class="hero">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Discover the biggest</p>
+                <h2 class="hero-heading">Creators who changed the internet</h2>
+                <p class="hero-sub">From viral challenges to multi-million dollar empires — explore the YouTubers who built it all from scratch.</p>
+            </div>
+            <div class="hero-card">
+                <p class="card-label">Featured Creator</p>
+                <p class="card-name">Mr. Beast</p>
+                <p class="card-stat">270M+ subscribers</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
