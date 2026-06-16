@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 — Profile Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="head">Project 1</div>
+        <a href="index.html" class="back-btn">← Back</a>
+    </header>
+
+    <main class="main-part">
+
+        <section class="project-hero">
+            <div class="project-gallery">
+                <a href="#p1-img1"><img src="images/project1-img1.png" alt="Profile Page Screenshot 1" class="gallery-main"></a>
+                <div class="gallery-thumbs">
+                    <a href="#p1-img2"><img src="images/project1-img2.png" alt="Profile Page Screenshot 2"></a>
+                    <a href="#p1-img3"><img src="images/project1-img3.png" alt="Profile Page Screenshot 3"></a>
+                    <a href="#p1-img4"><img src="images/project1-img4.png" alt="Profile Page Screenshot 4"></a>
+                    <a href="#p1-img5"><img src="images/project1-img5.png" alt="Profile Page Screenshot 5"></a>
+                </div>
+            </div>
+
+            <!-- Lightboxes (pure CSS, uses :target) -->
+            <a href="#" id="p1-img1" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project1-img1.png" alt="Profile Page Screenshot 1 enlarged">
+            </a>
+            <a href="#" id="p1-img2" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project1-img2.png" alt="Profile Page Screenshot 2 enlarged">
+            </a>
+            <a href="#" id="p1-img3" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project1-img3.png" alt="Profile Page Screenshot 3 enlarged">
+            </a>
+            <a href="#" id="p1-img4" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project1-img4.png" alt="Profile Page Screenshot 4 enlarged">
+            </a>
+            <a href="#" id="p1-img5" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project1-img5.png" alt="Profile Page Screenshot 5 enlarged">
+            </a>
+            <div class="project-info">
+                <p class="project-number">01</p>
+                <h1 class="project-title">Profile Page</h1>
+                <p class="project-desc">A multi-page profile website featuring Elon Musk, Tony Stark, and Bruce Wayne. Each person gets their own page with quotes on discipline and consistency.</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Tech Used</span>
+                        <span class="meta-value">HTML5 · CSS3</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Type</span>
+                        <span class="meta-value">Multi-page Site</span>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>What I Learned</h3>
+                    <ul>
+                        <li>How to share one CSS file across multiple HTML pages</li>
+                        <li>Flexbox layouts and wrapping cards responsively</li>
+                        <li>Media queries from mobile to desktop</li>
+                        <li>Semantic HTML — article, figure, figcaption, nav</li>
+                        <li>Using <code>min()</code> for fluid widths</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Biggest Problem I Faced</h3>
+                    <p>Cards were aligning to the left instead of centering on wider screens. The fix was adding <code>justify-content: center</code> to the flex container — a small line that took me a while to find!</p>
+                </div>
+
+                <a href="https://github.com/antonysnowin4787/My-Experiments.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <i class="ti ti-brand-github"></i> View on GitHub
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Antony Snowin A</p>
+    </footer>
+
+</body>
+</html>

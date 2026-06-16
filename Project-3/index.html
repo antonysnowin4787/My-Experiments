@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antony Snowin — Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+</head>
+<body>
+
+    <input type="checkbox" id="social-toggle">
+
+    <!-- Social Sidebar -->
+    <aside class="social-sidebar">
+        <label class="social-close" for="social-toggle" aria-label="Close">
+            <i class="ti ti-x"></i>
+        </label>
+        <h3>Find Me</h3>
+        <ul>
+            <li>
+                <a href="https://github.com/antonysnowin4787/My-Experiments.git" target="_blank" rel="noopener noreferrer">
+                    <i class="ti ti-brand-github"></i> GitHub
+                </a>
+            </li>
+            <li>
+                <a href="www.linkedin.com/in/antony-snowin-9a71b8380" target="_blank" rel="noopener noreferrer">
+                    <i class="ti ti-brand-linkedin"></i> LinkedIn
+                </a>
+            </li>
+
+        </ul>
+    </aside>
+
+    <!-- Overlay -->
+    <label class="social-overlay" for="social-toggle"></label>
+
+    <!-- Social Tab (right edge trigger) -->
+    <label class="social-tab" for="social-toggle" aria-label="Open social links">
+        <i class="ti ti-brand-github"></i>
+    </label>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="head">About Myself →</div>
+        <nav class="header-nav">
+            <a href="#hobbies">Hobbies</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <main class="main-part">
+
+        <!-- Profile -->
+        <section class="profile-head">
+            <img src="images/ME.jpeg" alt="Antony Snowin" class="profile-img">
+            <h1 class="profile-title">Antony Snowin A</h1>
+            <p class="profile-text">BE (CSE) · 2nd Year</p>
+            <p class="profile-quote">"Build things. Break things. Learn everything."</p>
+        </section>
+
+        <!-- Stats -->
+        <section class="profile-stats">
+            <div class="stat">
+                <p class="stat-head">2+</p>
+                <p class="stat-text">Projects</p>
+            </div>
+            <div class="stat">
+                <p class="stat-head">2nd</p>
+                <p class="stat-text">Year</p>
+            </div>
+            <div class="stat">
+                <p class="stat-head">3+</p>
+                <p class="stat-text">Skills</p>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="achievements" id="hobbies">
+            <h3 class="a-title">My Hobbies</h3>
+            <div class="grid">
+                <div class="card">
+                    <i class="ti ti-music"></i>
+                    <h4>Music</h4>
+                    <p>I like to listen to music — it keeps me focused while coding.</p>
+                </div>
+                <div class="card">
+                    <i class="ti ti-code"></i>
+                    <h4>Coding</h4>
+                    <p>I love building things with code and seeing them come to life.</p>
+                </div>
+                <div class="card">
+                    <i class="ti ti-barbell"></i>
+                    <h4>Workout</h4>
+                    <p>Staying healthy keeps my mind sharp and my energy up.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="achievements" id="skills">
+            <h3 class="a-title">Skills</h3>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <span class="skill-label">HTML</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--fill: 85%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">CSS</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--fill: 70%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">C</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--fill: 60%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Python</span>
+                    <div class="skill-bar"><div class="skill-fill" style="--fill: 50%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="achievements" id="projects">
+            <h3 class="a-title">My Projects</h3>
+            <div class="grid">
+                <div class="card">
+                    <i class="ti ti-user"></i>
+                    <h4>Profile Page</h4>
+                    <p>A multi-page profile site built with pure HTML & CSS — flexbox, grid, media queries.</p>
+                    <a href="project1.html" class="card-link">View Project →</a>
+                </div>
+                <div class="card">
+                    <i class="ti ti-brand-youtube"></i>
+                    <h4>YouTube Clone</h4>
+                    <p>A YouTube UI clone with a CSS-only sidebar toggle, search bar, and responsive layout.</p>
+                    <a href="project2.html" class="card-link">View Project →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Antony Snowin A</p>
+    </footer>
+
+</body>
+</html>

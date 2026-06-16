@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 — YouTube Clone</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="head">Project 2</div>
+        <a href="index.html" class="back-btn">← Back</a>
+    </header>
+
+    <main class="main-part">
+
+        <section class="project-hero">
+            <div class="project-gallery">
+                <a href="#p2-img1"><img src="images/project2-img1.png" alt="YouTube Clone Screenshot 1" class="gallery-main"></a>
+                <div class="gallery-thumbs">
+                    <a href="#p2-img2"><img src="images/project2-img2.png" alt="YouTube Clone Screenshot 2"></a>
+                    <a href="#p2-img3"><img src="images/project2-img3.png" alt="YouTube Clone Screenshot 3"></a>
+                </div>
+            </div>
+
+            <!-- Lightboxes (pure CSS, uses :target) -->
+            <a href="#" id="p2-img1" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project2-img1.png" alt="YouTube Clone Screenshot 1 enlarged">
+            </a>
+            <a href="#" id="p2-img2" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project2-img2.png" alt="YouTube Clone Screenshot 2 enlarged">
+            </a>
+            <a href="#" id="p2-img3" class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="images/project2-img3.png" alt="YouTube Clone Screenshot 3 enlarged">
+            </a>
+            <div class="project-info">
+                <p class="project-number">02</p>
+                <h1 class="project-title">YouTube Clone</h1>
+                <p class="project-desc">A YouTube UI clone built with pure HTML and CSS. Features a sliding sidebar, centered search bar, and the YouTube logo — all without a single line of JavaScript.</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Tech Used</span>
+                        <span class="meta-value">HTML5 · CSS3</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Type</span>
+                        <span class="meta-value">UI Clone</span>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>What I Learned</h3>
+                    <ul>
+                        <li>CSS-only sidebar toggle using a hidden checkbox</li>
+                        <li>The <code>~</code> general sibling selector</li>
+                        <li>z-index layering — overlay, sidebar, header stacking</li>
+                        <li>CSS transitions and <code>cubic-bezier</code> easing</li>
+                        <li>Centering with <code>position: absolute</code> + <code>translateX(-50%)</code></li>
+                        <li>Grouping flex children with wrapper divs</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Biggest Problem I Faced</h3>
+                    <p>Moving the hamburger button to the left kept breaking the layout. The fix was wrapping the button and logo together in a <code>header-left</code> div — two elements behaving as one flex child.</p>
+                </div>
+
+                <a href="https://github.com/antonysnowin4787/My-Experiments.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <i class="ti ti-brand-github"></i> View on GitHub
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Antony Snowin A</p>
+    </footer>
+
+</body>
+</html>
